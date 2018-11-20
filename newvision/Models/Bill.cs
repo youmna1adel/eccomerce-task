@@ -7,7 +7,7 @@ namespace newvision.Models
 {
     public class Bill
     {
-        public int number { get; set; }
+        public int id { get; set; }
         public float doctorcharges { get; set; }
         public float roomcharges { get; set; }
     }
